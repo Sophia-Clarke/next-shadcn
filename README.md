@@ -40,6 +40,16 @@ pnpm add next-shadcn
 
 The CustomDialog component is designed for flexibility and ease of use in applications. Below, you will find detailed instructions on how to implement this component, along with various customization options to adapt it to specific needs
 
+**Basic Usage**
+To use the CustomDialog component with default settings, simply add it to a main component like this:
+
+`<CustomDialog />`
+
+This will render the dialog with its default properties.
+
+**Customization Options**
+The CustomDialog can be customized with several properties that enable dynamic changes to the content, buttons, and background. Below are the available properties:
+
 ```
 <CustomDialog
   containerClassName="flex items-center justify-center p-10 min-h-[40vh] min-w-[30vw]"
