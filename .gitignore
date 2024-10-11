@@ -1,0 +1,21 @@
+
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Environment variables
+.env*
+!.env.example
+
+# TypeScript build info (if using TypeScript)
+*.tsbuildinfo
+next-env.d.ts
+
+# production
+/build
+
+# history
+.history/
