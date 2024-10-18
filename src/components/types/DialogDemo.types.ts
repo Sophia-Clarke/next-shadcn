@@ -4,4 +4,6 @@ export interface DialogDemoProps {
   descriptionDialog?: string;
   titlePopover?: string;
   descriptionPopover?: string;
+  titleForm?: string;
+  descriptionForm?: string;
 }

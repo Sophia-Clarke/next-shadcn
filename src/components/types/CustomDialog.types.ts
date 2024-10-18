@@ -11,4 +11,6 @@ export interface CustomDialogProps {
   descriptionDialog?: string;
   titlePopover?: string;
   descriptionPopover?: string;
+  titleForm?: string;
+  descriptionForm?: string;
 }
